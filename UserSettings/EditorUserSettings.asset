@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!162 &1
+EditorUserSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_ConfigSettings:
+    RecentlyUsedSceneGuid-0:
+      value: 05520d50520d5f0b085c5972487a0d44134e4c792e2976627f7a1e61e7e4673a
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    UnityEditor.ShaderGraph.Blackboard:
+      value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd2e2d293c4ead313b08042de6030a0afa240c0d020be94c4ba85e45499548954a9b4f499a4e4999954c9da1d8e9fce5cae2fdd7d0cba1fedbf6e8ebf0e5e7a1f2e6a894fdf6a7e8f69793969399e1979f8a8bca85e1d8c9bb9188c89bcec78c8bd788958dd9f7d4fac2f0fccbf1fcc3ccf0d5e984dcc6e630e3e131343031e3ecefe4d2ebec3bd1256d99
+      flags: 0
+    UnityEditor.ShaderGraph.FloatingWindowsLayout2:
+      value: 181344140043005e1a220d3b1f364b524c0c5a27130c293326201334cee5322ca0bd30e8eb293a707b0fd0180b3d0a36fc0d3d04e649500d1002ee0b5dbd1d2c27c00ad113cb1e10e41f1addc80993b9829882bd81b2be8a8888f5a5aca1bcadb9b3a8c482a7eec9b0a0f0a5aecee8c2c7d9b2d08e9c9189ee86868ae78b82878f8ed28395c5d5e4ea84ba88e0cabce68be3fec7c7f0d7fac5cacce030eaf636363e3bede9f4f499ffe33cd1263ed0d9272ede2c26dad8d8dbc327d489938c
+      flags: 0
+    UnityEditor.ShaderGraph.InspectorWindow:
+      value: 18135939215a0a5004000b0e15254b524c1119263f2d6a722016393ce1eb3d36e5d339f9a5602b2e2c07a37e0901373ae01e0008f707250d171df81a53a5475d479d48954a984c4c9e484b9b9a4580af97dbebc2d7f9eec2d1d1b4f3f8dfe8fee6f4b1b9f0f0b294fef8a7e8f7929392999de2888ecbf6f4b3c8d491e4c890cb9b8cd68689c98a8381ddf2d9fbc0f5f7c7f2f3c1d9e780e9c7cccbe62eeafb34363738e8e8ece7d4edef709e
+      flags: 0
+    vcSharedLogLevel:
+      value: 0d5e400f0650
+      flags: 0
+  m_VCAutomaticAdd: 1
+  m_VCDebugCom: 0
+  m_VCDebugCmd: 0
+  m_VCDebugOut: 0
+  m_SemanticMergeMode: 2
+  m_DesiredImportWorkerCount: 3
+  m_StandbyImportWorkerCount: 2
+  m_IdleImportWorkerShutdownDelay: 60000
+  m_VCShowFailedCheckout: 1
+  m_VCOverwriteFailedCheckoutAssets: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
+  m_VCAllowAsyncUpdate: 1
+  m_ArtifactGarbageCollection: 1
