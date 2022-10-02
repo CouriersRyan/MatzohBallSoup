@@ -1,0 +1,94 @@
+{
+    "name": "Player Controls",
+    "maps": [
+        {
+            "name": "Spoon",
+            "id": "9764011a-909f-4d62-92c9-4cd82dd0e601",
+            "actions": [
+                {
+                    "name": "Spin",
+                    "type": "Value",
+                    "id": "0771a24d-0fca-4a01-a52c-60e81da41040",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Line",
+                    "type": "Value",
+                    "id": "72b9e1b1-10db-42fb-a44a-34632b482be7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Vector",
+                    "type": "Value",
+                    "id": "b7b0775b-242f-45a0-a948-e24a52dea95d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Eat",
+                    "type": "Value",
+                    "id": "0f8e0233-2549-49d3-9c7f-c5ee06393903",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "df6d5db1-3fca-4a67-8136-509d19a755d8",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cce8f823-9dbb-441e-b17e-0c106f8756ff",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Line",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0435821d-8b6c-4eff-9142-6d90d8517d12",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Vector",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7cfb6b8-3331-475e-8b9e-f6461b9cb94d",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

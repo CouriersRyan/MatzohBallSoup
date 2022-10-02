@@ -18,19 +18,29 @@ public class DeformableMesh : MonoBehaviour
     public List<Vector3> modifiedVertices;
     public Vector3 meshMassCenter;
 
+    private MeshCollider _meshCollider;
+
     private MeshFilter matzhoBall;
+    private MeshRenderer _meshRenderer;
 
     private void Awake()
     {
         MeshRegenerated();
-    }
-
-    private void Start()
-    {
-        AddDepression(spoon);
+        _meshCollider = GetComponent<MeshCollider>();
+        _meshRenderer = GetComponent<MeshRenderer>();
+        _meshCollider.sharedMesh = matzhoBall.mesh;
     }
 
     // Resets the mesh to the original.
+    public void Reset()
+    {
+        
+        modifiedVertices = originalVertices.ToList();
+        matzhoBall.mesh.SetVertices(modifiedVertices);
+        _meshCollider.sharedMesh = matzhoBall.mesh;
+        _meshRenderer.enabled = true;
+    }
+
     public void MeshRegenerated()
     {
         matzhoBall = GetComponent<MeshFilter>();
@@ -38,6 +48,17 @@ public class DeformableMesh : MonoBehaviour
         originalVertices = matzhoBall.mesh.vertices.ToList();
         modifiedVertices = matzhoBall.mesh.vertices.ToList();
         Debug.Log("Mesh Regenerated");
+    }
+
+    public bool Eat()
+    {
+        var temp = AddDepression(spoon);
+        if (temp)
+        {
+            _meshRenderer.enabled = false;
+        }
+
+        return temp;
     }
 
     public bool AddDepression(Collider cutOut)
@@ -59,8 +80,9 @@ public class DeformableMesh : MonoBehaviour
             }
         }
         matzhoBall.mesh.SetVertices(modifiedVertices);
+        _meshCollider.sharedMesh = matzhoBall.mesh;
         Debug.Log("Mesh Depressed");
-        return hitCount >= modifiedVertices.Count;
+        return hitCount >= modifiedVertices.Count * 0.75f;
     }
     
     public void AddDepression(Vector3 depressionPoint, float radius)
